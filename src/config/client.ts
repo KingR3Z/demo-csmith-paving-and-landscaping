@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "3",
 
   // Services
   services: [
@@ -79,9 +79,9 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Chris Hodges", rating: 5, text: "Quick, clean, efficient and skilled.  Existing fencing replaced very quickly, and the end result looks highly professional.  This is the third job he has done for us, and I cannot recommend him highly enough. ", date: "Edited 2 months ago" },
+    { name: "Julian Deverell", rating: 5, text: "Superb Job! We got C Smith Paving and Landscaping to remove a huge bush in our back garden and put up two new fence panels. Lovely job all round and completed quickly and left the garden clean and tidy. 5 stars all round. Thank you. ", date: "4 months ago" },
+    { name: "Meg Longman", rating: 5, text: "Really pleased with our new patio and steps. Great material match to our house and neatly done. The team also helped cut up some of the remaining slabs so we could use them elsewhere for coping. ", date: "4 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
